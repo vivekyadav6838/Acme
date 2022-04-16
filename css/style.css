@@ -1,0 +1,140 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header{
+    background-color: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: 3px solid red;
+
+}
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #brading{
+    float: left;
+}
+header #branding h1{
+    margin: 0;
+
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+header .highlight, .current a{
+    color: #e8491e;
+    font-weight: bold;
+}
+header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+}
+#showcase{
+  min-height: 400px ;
+   width: 100%;
+   text-align: center;
+   color: #cccccc;
+
+    background: url('../img/tools-for-motivation-KvTOwKoji7g-unsplash.jpg') no-repeat 0 -400px;
+}
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+#showcase p{
+    font-size: 25px;
+}
+#newslatter{
+    padding: 15px;
+    color: #cccccc;
+    background-color: #35424a;
+}
+#newslatter h1{
+    float: left;
+}
+#newslatter form{
+    float: right;
+    margin-top: 15px;
+}
+#newslatter input[type = "email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+   
+
+}
+.btn_1{
+    padding: 5px;
+    color: #cccccc;
+    background-color: #e8491e;
+    border: none;
+}
+.btn_1:hover{
+
+color: blue;
+}
+#boxes{
+    margin-top: 25px;
+}
+#boxes .box{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+#boxes .box img{
+    width: 90px;
+}
+
+
+footer{
+    margin-top: 20px;
+    text-align: center;
+    background-color: #e8491e;
+    padding: 20px;
+    color: #cccccc;
+}
+#main_col{
+    font-size: 18px;
+    line-height: 1.5em;
+    float: left;
+    width: 65%;
+
+}
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+#services{
+    background-color: darkgray;
+}
+#showcase h1{
+    color: black;
+    text-decoration:solid;
+    text-shadow: #e8491e;
+}
